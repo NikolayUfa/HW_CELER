@@ -1,0 +1,15 @@
+# примеры API-запросов
+
+@baseUrl = http://127.0.0.1:5000/api/v1
+
+# отправка
+POST  {{baseUrl}}/sendmail
+Content-Type: application/json
+
+###
+
+# статус
+GET  {{baseUrl}}/sendmail/43e7e1d5-2cb9-4fe7-b77a-bd78b9c890aa
+Content-Type: application/json
+
+###
